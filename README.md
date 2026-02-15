@@ -4,7 +4,11 @@
 Alumno: Lucas Miño
 Grupo: LM
 ---
+## 📦 Repositorio
 
+Todo el proyecto está en https://github.com/lucas-mino/UADE-RSU.git
+
+---
 ## 📋 Descripción del Proyecto
 
 Sistema de red social universitaria que implementa 4 problemas algorítmicos diferentes, cubriendo los siguientes paradigmas de diseño de algoritmos:
