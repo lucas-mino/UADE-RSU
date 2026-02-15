@@ -3,6 +3,7 @@
 **Programación III - 2026**
 Alumno: Lucas Miño
 Grupo: LM
+Docente: Maria Angela León
 ---
 ## 📦 Repositorio
 
