@@ -7,14 +7,15 @@ import test.TestSimuladorBloqueos;
 /**
  * Clase principal del proyecto Red Social Universitaria
  * 
- * Trabajo Integrador - Programación III
- * Análisis y Diseño de Algoritmos - 2026
- * 
+ * Trabajo Integrador - Programación III - 2026
+ *
+ * Docente: María Angela León
+ *
  * Problemas implementados:
  * 1. Gestión de Publicaciones (Divide y Conquista - Merge Sort) ✓
  * 2. Asignación de Publicidad (Programación Dinámica - Knapsack) ✓
  * 3. Recomendación de Amigos (Greedy - Dijkstra) ✓
- * 4. Simulación de Bloqueos (Backtracking) [En desarrollo]
+ * 4. Simulación de Bloqueos (Backtracking) ✓
  *
  * @author Lucas Miño
  * @version 1.0
@@ -99,10 +100,11 @@ public class Main {
     }
     
     private static void mostrarMenu() {
-        System.out.println("\n╔═════════════════════════════════════════════════════════════╗");
-        System.out.println("║        RED SOCIAL UNIVERSITARIA - TRABAJO INTEGRADOR        ║");
-        System.out.println("║                 Programación III - 2026                     ║");
-        System.out.println("╚═════════════════════════════════════════════════════════════╝");
+        System.out.println("\n----------------------------------------------------------------");
+        System.out.println("--        RED SOCIAL UNIVERSITARIA - TRABAJO INTEGRADOR       --");
+        System.out.println("--                 Programación III - 2026                    --");
+        System.out.println("--                    Alumno: Lucas Miño                      --");
+        System.out.println("----------------------------------------------------------------");
         System.out.println();
         System.out.println("  0. Ejecutar todos los problemas");
         System.out.println("  1. Gestión de Publicaciones (Divide y Conquista)");

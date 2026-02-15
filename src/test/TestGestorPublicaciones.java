@@ -8,7 +8,7 @@ import modelo.Publicacion;
 import modelo.Usuario;
 
 /**
- * Suite de pruebas para GestorPublicaciones.
+ * Set de pruebas para GestorPublicaciones.
  * Incluye casos triviales, pequeños, medianos y grandes para análisis de complejidad
  *
  * @author Lucas Miño

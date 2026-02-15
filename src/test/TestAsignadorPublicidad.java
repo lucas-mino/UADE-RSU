@@ -7,7 +7,7 @@ import modelo.Anuncio;
 import modelo.Usuario;
 
 /**
- * Suite de pruebas para AsignadorPublicidad (Mochila con Programación Dinámica).
+ * Set de pruebas para AsignadorPublicidad (Mochila con Programación Dinámica).
  * Incluye casos triviales, pequeños, medianos y grandes para análisis de complejidad
  *
  * @author Lucas Miño
@@ -317,11 +317,11 @@ public class TestAsignadorPublicidad {
      * Ejecuta todos los tests
      */
     public void ejecutarTodos() {
-        System.out.println("╔═══════════════════════════════════════════════════════════╗");
-        System.out.println("║   TEST ASIGNADOR DE PUBLICIDAD - PROGRAMACIÓN DINÁMICA   ║");
-        System.out.println("║   Algoritmo: Mochila                                ║");
-        System.out.println("║   Complejidad: O(n × W)                                  ║");
-        System.out.println("╚═══════════════════════════════════════════════════════════╝");
+        System.out.println("------------------------------------------------------------");
+        System.out.println("--  TEST ASIGNADOR DE PUBLICIDAD - PROGRAMACIÓN DINÁMICA  --");
+        System.out.println("--  Algoritmo: Mochila                                    --");
+        System.out.println("--  Complejidad: O(n × W)                                 --");
+        System.out.println("------------------------------------------------------------");
         
         testCasoTrivial();
         testConPerfiles();
@@ -331,9 +331,9 @@ public class TestAsignadorPublicidad {
         testVersionOptimizada();
         testCasosEspeciales();
         
-        System.out.println("\n╔═══════════════════════════════════════════════════════════╗");
-        System.out.println("║              TODOS LOS TESTS COMPLETADOS ✓               ║");
-        System.out.println("╚═══════════════════════════════════════════════════════════╝");
+        System.out.println("\n------------------------------------------------------------");
+        System.out.println("--             TODOS LOS TESTS COMPLETADOS ✓              --");
+        System.out.println("------------------------------------------------------------");
     }
     
     /**

@@ -11,7 +11,7 @@ import modelo.Usuario;
  * presupuesto limitado, seleccionar qué anuncios mostrar para MAXIMIZAR el
  * alcance total sin exceder el presupuesto.
  * 
- * ENFOQUE: Mochila (mochila 0/1)
+ * ENFOQUE: Problema de la Mochila
  * - Cada anuncio puede ser incluido (1) o no incluido (0)
  * - No se pueden incluir parcialmente
  * - Maximizar valor (alcance) sujeto a restricción de peso (costo ≤ presupuesto)

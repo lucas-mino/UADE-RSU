@@ -8,7 +8,7 @@ import modelo.Grafo;
 import modelo.Usuario;
 
 /**
- * Suite de pruebas para SimuladorBloqueos (Backtracking).
+ * Set de pruebas para SimuladorBloqueos (Backtracking).
  * Incluye casos triviales, pequeños, medianos y análisis del algoritmo
  *
  * @author Lucas Miño
@@ -338,11 +338,11 @@ public class TestSimuladorBloqueos {
      * Ejecuta todos los tests
      */
     public void ejecutarTodos() {
-        System.out.println("╔═══════════════════════════════════════════════════════════╗");
-        System.out.println("║   TEST SIMULADOR DE BLOQUEOS - BACKTRACKING              ║");
-        System.out.println("║   Algoritmo: Backtracking con Poda                       ║");
-        System.out.println("║   Complejidad: O(V + E) + O(2^C) con poda                ║");
-        System.out.println("╚═══════════════════════════════════════════════════════════╝");
+        System.out.println("----------------------------------------------------------");
+        System.out.println("--   TEST SIMULADOR DE BLOQUEOS - BACKTRACKING          --");
+        System.out.println("--   Algoritmo: Backtracking con Poda                   --");
+        System.out.println("--   Complejidad: O(V + E) + O(2^C) con poda            --");
+        System.out.println("----------------------------------------------------------");
         
         testBloqueoSinRomperConectividad();
         testBloqueoRompeConectividad();
@@ -351,9 +351,9 @@ public class TestSimuladorBloqueos {
         testCasosEspeciales();
         testRendimiento();
         
-        System.out.println("\n╔═══════════════════════════════════════════════════════════╗");
-        System.out.println("║              TODOS LOS TESTS COMPLETADOS ✓               ║");
-        System.out.println("╚═══════════════════════════════════════════════════════════╝");
+        System.out.println("\n----------------------------------------------------------");
+        System.out.println("--           TODOS LOS TESTS COMPLETADOS ✓              --");
+        System.out.println("----------------------------------------------------------");
     }
     
     /**

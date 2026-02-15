@@ -8,7 +8,7 @@ import modelo.Grafo;
 import modelo.Usuario;
 
 /**
- * Suite de pruebas para RecomendadorAmigos (Algoritmo de Dijkstra).
+ * Set de pruebas para RecomendadorAmigos (Algoritmo de Dijkstra).
  * Incluye casos triviales, pequeños, medianos y grandes para análisis de complejidad
  *
  * @author Lucas Miño
@@ -365,11 +365,11 @@ public class TestRecomendadorAmigos {
      * Ejecuta todos los tests
      */
     public void ejecutarTodos() {
-        System.out.println("╔═══════════════════════════════════════════════════════════╗");
-        System.out.println("║   TEST RECOMENDADOR DE AMIGOS - ALGORITMO DE DIJKSTRA    ║");
-        System.out.println("║   Paradigma: GREEDY                                      ║");
-        System.out.println("║   Complejidad: O((V + E) log V)                          ║");
-        System.out.println("╚═══════════════════════════════════════════════════════════╝");
+        System.out.println("-------------------------------------------------------------");
+        System.out.println("--   TEST RECOMENDADOR DE AMIGOS - ALGORITMO DE DIJKSTRA   --");
+        System.out.println("--   Paradigma: GREEDY                                     --");
+        System.out.println("--   Complejidad: O((V + E) log V)                         --");
+        System.out.println("-------------------------------------------------------------");
         
         testCasoTrivial();
         testAmigosMutuos();
@@ -378,9 +378,9 @@ public class TestRecomendadorAmigos {
         testAnalisisComplejidad();
         testCasosEspeciales();
         
-        System.out.println("\n╔═══════════════════════════════════════════════════════════╗");
-        System.out.println("║              TODOS LOS TESTS COMPLETADOS ✓               ║");
-        System.out.println("╚═══════════════════════════════════════════════════════════╝");
+        System.out.println("\n------------------------------------------------------------");
+        System.out.println("--            TODOS LOS TESTS COMPLETADOS ✓               --");
+        System.out.println("------------------------------------------------------------");
     }
     
     /**
